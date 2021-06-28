@@ -32,4 +32,11 @@
 *.app
 
 # Eclipse
-*/language.settings.xml
+*.settings.xml
+Debug/
+Release/
+*.mk
+*.o
+
+# Archives
+*.zip
