@@ -55,15 +55,6 @@ struct Stats {
 			word_frequences[w] += freq;
 		}
 	}
-
-//	void operator += (const Stats& other) {
-//		word_frequences = accumulate(other.word_frequences.begin(),
-//									 other.word_frequences.end(),
-//									 word_frequences,
-//									 [](map<string, int>& m, const std::pair<const string, int>& p) {
-//										 return (m[p.first] += p.second, m);
-//									 });
-//	}
 };
 
 Stats ExploreLine(const set<string>& key_words, const string& line) {
